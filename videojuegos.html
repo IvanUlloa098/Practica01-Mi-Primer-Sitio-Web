@@ -4,25 +4,22 @@
     <meta charset="utf-8" /> 
     <meta name="keywords"   content="Computer, 1980, 80s, geek" /> 
     <title> Computadoras de lo 80s </title>
-    <style>
-        body {
-          background-image: url('./Imagen/background.jpg');
-        }
-    </style>
-
+    <link href="encabezado.css" rel="stylesheet" />
+    <link href="pie_pagina.css" rel="stylesheet" />
 </head> 
  
 <body> 
 
     <header>
-        <img src="./Imagen/fig1.jpg" alt="80s computer banner" /> 
-        <br>
-        <audio controls>
+
+        <img id="logo" src="./Imagen/menu/fig1.jpg" alt="80s computer banner"/> 
+        <label id="searchbar" for="buscar">Buscar  </label>
+        <input id="searchbar" type="text" id="buscar"/>
+
+        <audio id="botones" controls>
             <source src="./Audio/videojuegos.mp3" type="audio/mp3">
             Your browser does not support the audio tag.
         </audio>
-        <br>
-        <p><font size="10" color="cyan">Presiona play!!<br> Get into the 80s vibe!!</font></p>
 
         <nav>
             <ul>
@@ -33,14 +30,13 @@
                <li><a href="videojuegos.html">Videojuegos</a></li>
                <li><a href="software.html">Software</a> </li>
             </ul>
-      </nav>
-    </header>
-    <section>
+    </nav>
 
-        <h1><font size="10" >Videojuegos en los 80s</font></h1> 
+
+        <h2>Videojuegos en los 80s</h2> 
         <article> 
             
-            <h2><font size="8" color="purple" >El dominio de los PC a mediados de la década</font></h2>
+            <h2>El dominio de los PC a mediados de la década</h2>
 
             <p>
                 Los que nacimos a mediados o finales de los setenta tuvimos la suerte de poder disfrutar 
@@ -64,7 +60,7 @@
                 tu ordenador para acceder a ellos sin conexión a internet.
             </p>
 
-            <h3><font size="5">Escribir trucos en BASIC</font></h3>
+            <h1>Escribir trucos en BASIC</h1>
             <aside>
                 <p>
                     Sí, amigos, para conseguir vidas infinitas en un videojuego actual puede bastar con 
@@ -81,7 +77,7 @@
         </article>
     </section>
 
-    <h4><font size="10" color="purple">Algunos ejemplos de juegos</font></h4>
+    <h1>Algunos ejemplos de juegos</h1>
     <section>
         <article>
 
@@ -98,7 +94,7 @@
                 Your browser does not support the video tag.
             </video>
             <br>
-            <h5><font size="5" >Otros ejemplos</font></h5>
+            <h1>Otros ejemplos</h1>
             <ul>
                 <li>Gauntlet (Atari, 1988)</li>
                 <li>Arkanoid II - Revenge of Doh (Taito, 1989)</li>
@@ -116,7 +112,7 @@
         </article>
     </section>
 
-    <h6><font size="10" color="purple">Videoconsolas notables</font></h6>
+    <h1>Videoconsolas notables</h1>
     <section>
         <article>
 
@@ -142,15 +138,34 @@
     </section>
 
     <footer> 
-        <br>
-        <br>
-        <br>
-        <p>Computers &#8226; 1980 &#8226; Nostalgia</p>
-        <p>Ivan Marcelo Ulloa Bermeo</p>
-        <p>Organization: Universidad Politecnica Salesiana</p>
-        <p>Call: <a href="tel:+17545551111">(175) 555-1111</a></p>
-        <p>Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a></p>
-        <p>&copy;Todos los Derechos Reservados</p>
+        <p id="pie">
+            <span><strong id="pie">Contactanos</strong></span><br>
+            Ivan Marcelo Ulloa Bermeo<br>
+            Organization: Universidad Politecnica Salesiana<br>
+            Call: <a href="tel:+17545551111">(175) 555-1111</a><br>
+            Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a><br>
+            Contactanos: <a href="./contacto.html"><strong>Envianos un mensaje<strong></a>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; ¿Lorem ipsum dolor sit amet consectetur?<br>
+            &#8226; ¿Ipsum dolor sit?<br>
+            &#8226; ¿Dolor sit amet consectetur adipisicing elit?<br>
+            &#8226; ¿Pre orem ipsum dolor sit amet consectetur adipisicing?<br>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; Siguenos en Facebook y Reddit<br><br>
+            <img src="./Imagen/fb.png" alt="ibmPC" id="fb" width="50px" style="margin: 0 0 0 5em;"/>
+            <img src="./Imagen/rd.png" alt="ibmPC" id="rd" width="50px" style="margin: 0 0 0 5em;"/>
+        </p>
+
+        <p style="clear:both">
+            Computers &#8226; 1980 &#8226; Nostalgia<br>
+            &copy;Todos los Derechos Reservados<br>
+        </p>
     </footer>
 </body> 
  

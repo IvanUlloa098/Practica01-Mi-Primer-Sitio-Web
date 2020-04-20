@@ -1,0 +1,17 @@
+footer {
+    clear: both;
+    border: 20px dotted #7B00FF;
+    background-color: #6566FF;
+}
+
+strong#pie {
+    background-color: #FF05B3;
+}
+
+p#pie {
+    background-color: #AE01FF;
+    border: 3px solid #FF05B3;
+    float: left;
+    width: 30%;
+    margin: 1%
+}

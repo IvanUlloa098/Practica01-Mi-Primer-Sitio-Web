@@ -4,31 +4,36 @@
     <meta charset="utf-8" /> 
     <meta name="keywords"   content="Computer, 1980, 80s, geek" /> 
     <title> Computadoras de lo 80s </title>
-    <style>
-      body {
-        background-image: url('./Imagen/background.jpg');
-      }
-    </style>
+    <link href="encabezado.css" rel="stylesheet" />
+    <link href="pie_pagina.css" rel="stylesheet" />
+    <link href="dos_columnas.css" rel="stylesheet" />
 </head> 
  
 <body> 
 
-    <header>
-        <img src="./Imagen/fig1.jpg" alt="80s computer banner" /> 
-        <nav>
-            <ul>
-               <li><a href="index.html">Inicio</a></li>
-               <li><a href="about.html">Acerca de nosotros</a></li>
-               <li><a href="historia.html">Historia</a></li>
-               <li><a href="modelos.html">Modelos</a> </li>
-               <li><a href="videojuegos.html">Videojuegos</a></li>
-               <li><a href="software.html">Software</a> </li>
-            </ul>
-      </nav>
-    </header>
+  <header>
 
-    <h1>Principales modelos de computadoras</h1> 
-    <section>
+    <img id="logo" src="./Imagen/menu/fig1.jpg" alt="80s computer banner"/> 
+    <label id="searchbar" for="buscar">Buscar  </label>
+    <input id="searchbar" type="text" id="buscar"/>
+    <img id="botones" src="./Imagen/botones.png" alt="botones"/> 
+
+    <nav>
+        <ul>
+           <li><a href="index.html">Inicio</a></li>
+           <li><a href="about.html">Acerca de nosotros</a></li>
+           <li><a href="historia.html">Historia</a></li>
+           <li><a href="modelos.html">Modelos</a> </li>
+           <li><a href="videojuegos.html">Videojuegos</a></li>
+           <li><a href="software.html">Software</a> </li>
+        </ul>
+    </nav>
+
+</header>
+
+    
+    <section id="uno">
+      <h1>Principales modelos de computadoras</h1> 
         <article>    
             
             <p> La lista de abajo muestra las <strong> computadoras personales</strong> más 
@@ -45,7 +50,7 @@
                 por ejemplo las familias del Apple II y del TRS-80.
             </p>
 
-            <img src="./Imagen/article/modelos2.jpg" alt="ibmPC" height="300" width="300"/>
+            <img src="./Imagen/article/modelos2.jpg" id="mod1" alt="ibmPC" width="50%"/>
 
             <aside>
                 <h2>
@@ -95,14 +100,14 @@
                 
             </aside>
 
-            <p><img src="./Imagen/article/modelos1.jpg" alt="commodore64" height="150" width="300"/> </p>
+            <p><img src="./Imagen/article/modelos1.jpg" id="mod2" alt="commodore64" width="60%"/> </p>
                 
         </article>
     </section>
 
-    <h1>Computadoras mas populares</h1>
-    <section>   
-
+    
+    <section id="dos">   
+      <h1>POPULARES</h1>
         
         <article>
             <p> A pesar de la enorme popularidad de la computadora personal, varias microcomputadoras
@@ -120,7 +125,7 @@
                 de uso común durante los años 80. También se conocen como computadoras personales.
             </p>
 
-            <h4><font size="5">Algunas de las mas populares:</font></h4>
+            <h4>Algunas de las mas populares:</h4>
             <aside>
                 <ul>
                     <li>1977, junio: Apple II (EE.UU.), gráficos en color, ocho ranuras de expansión.</li>
@@ -131,21 +136,40 @@
                 </ul>
             </aside>
 
-            <img src="./Imagen/article/modelos3.jpg" alt="commodore64" height="300" width="300"/>
+            <img src="./Imagen/article/modelos3.jpg" id="mod3" alt="commodore64" height="300" width="300"/>
 
         </article>
     </section>
 
     <footer> 
-        <br>
-        <br>
-        <br>
-        <p>Computers &#8226; 1980 &#8226; Nostalgia</p>
-        <p>Ivan Marcelo Ulloa Bermeo</p>
-        <p>Organization: Universidad Politecnica Salesiana</p>
-        <p>Call: <a href="tel:+17545551111">(175) 555-1111</a></p>
-        <p>Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a></p>
-        <p>&copy;Todos los Derechos Reservados</p>
+      <p id="pie">
+        <span><strong id="pie">Contactanos</strong></span><br>
+        Ivan Marcelo Ulloa Bermeo<br>
+        Organization: Universidad Politecnica Salesiana<br>
+        Call: <a href="tel:+17545551111">(175) 555-1111</a><br>
+        Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a><br>
+        Contactanos: <a href="./contacto.html"><strong>Envianos un mensaje<strong></a>
+      </p>
+
+      <p id="pie">
+        <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+        &#8226; ¿Lorem ipsum dolor sit amet consectetur?<br>
+        &#8226; ¿Ipsum dolor sit?<br>
+        &#8226; ¿Dolor sit amet consectetur adipisicing elit?<br>
+        &#8226; ¿Pre orem ipsum dolor sit amet consectetur adipisicing?<br>
+      </p>
+
+      <p id="pie">
+        <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+        &#8226; Siguenos en Facebook y Reddit<br><br>
+        <img src="./Imagen/fb.png" alt="ibmPC" id="fb" width="50px" style="margin: 0 0 0 5em;"/>
+        <img src="./Imagen/rd.png" alt="ibmPC" id="rd" width="50px" style="margin: 0 0 0 5em;"/>
+      </p>
+
+      <p style="clear:both">
+        Computers &#8226; 1980 &#8226; Nostalgia<br>
+        &copy;Todos los Derechos Reservados<br>
+      </p>
     </footer>
 </body> 
  

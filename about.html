@@ -4,17 +4,20 @@
     <meta charset="utf-8" /> 
     <meta name="keywords"   content="Computer, 1980, 80s, geek" /> 
     <title> Computadoras de lo 80s </title>
-    <style>
-        body {
-          background-image: url('./Imagen/background.jpg');
-        }
-    </style>
+    <link href="encabezado.css" rel="stylesheet" />
+    <link href="pie_pagina.css" rel="stylesheet" />
+    <link href="dos_columnas.css" rel="stylesheet" />
 </head> 
  
 <body> 
 
     <header>
-        <img src="./Imagen/fig1.jpg" alt="80s computer banner" /> 
+
+        <img id="logo" src="./Imagen/menu/fig1.jpg" alt="80s computer banner"/> 
+        <label id="searchbar" for="buscar">Buscar  </label>
+        <input id="searchbar" type="text" id="buscar"/>
+        <img id="botones" src="./Imagen/botones.png" alt="botones"/> 
+
         <nav>
             <ul>
                <li><a href="index.html">Inicio</a></li>
@@ -24,19 +27,21 @@
                <li><a href="videojuegos.html">Videojuegos</a></li>
                <li><a href="software.html">Software</a> </li>
             </ul>
-      </nav>
+        </nav>
+
     </header>
 
-    <section>
+    <section id="uno">
         <article> 
-            <h1><font size="10" color="green" >Acerca de nosotros</font></h1> 
+            <h1 id="acerca">Acerca de nosotros</h1> 
             
-            <p> <strong>Computadora de los 80s</strong> es una pagina dedicada a la 
+            <p id="acerca"> <strong>Computadora de los 80s</strong> es una pagina dedicada a la 
                 recopilacion de informacion de esa epoca en el ambito de la computacion.
                 Ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore fugiat quae, neque asperiores ullam. Explicabo non fuga corporis facilis quod esse officiis cum, laboriosam eaque doloribus libero quam voluptate odit adipisci, exercitationem sequi. Suscipit temporibus ipsa voluptatibus architecto quasi, debitis odio aspernatur ab earum sit ea saepe alias assumenda?
             </p>
 
-            <aside><img src="./Imagen/article/about2.png" alt="about1" /> 
+            <aside >
+            <img id="acerca" src="./Imagen/article/about2.png" alt="about1" /> 
 
             <p> Tambien ofrecemos asistencia en nuestros <strong><em>contactos</em></strong> si
                 necesita alguna clase de informacion. Dolor sit amet consectetur adipisicing elit. Earum animi sapiente quis molestias vitae quae enim itaque deserunt omnis excepturi quos iure officiis voluptas quidem asperiores laudantium, sunt aut corrupti dolor rem temporibus. Ratione blanditiis, eligendi cum magnam accusamus deleniti optio quisquam omnis tempore consequuntur, dolor dignissimos repellendus, voluptates aliquam.
@@ -45,34 +50,55 @@
         </article>
     </section>
 
-    <section>
-        <h2>Contactos y ayuda</h2>
-        <article>
+    <section id="dos">
+        <h2 id="contacto">Contactos y ayuda</h2>
+        <article id="contacto">
             <aside><p> Contactenos fuimos reconocidos como <q>una de las mejores paginas de su tipo</q>.
                 Consectetur adipisicing elit. Autem, veritatis itaque eaque tempora officiis eveniet aperiam incidunt dolor, error hic atque aut totam, iure non iusto quia iste voluptas. Fugiat tempore, eaque at eos, aliquid numquam sint doloremque rerum dolorum nobis id cum, iure nihil porro alias! Sint labore ea aut?
             </p> </aside>
 
-            <img src="./Imagen/article/about1.png" alt="about1" /> 
+            <img src="./Imagen/article/about1.png" alt="about1" id="contacto"/> 
             <br>
 
             <aside>
                 <p>
                     Es libre de publicar toda calse de informacion. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
                 </p>
+
+                <span>Contactanos: <a href="./contacto.html">Envianos un mensaje</a></span>
             </aside>
         </article>
     </section>
 
     <footer> 
-        <br>
-        <br>
-        <br>
-        <p>Computers &#8226; 1980 &#8226; Nostalgia</p>
-        <p>Ivan Marcelo Ulloa Bermeo</p>
-        <p>Organization: Universidad Politecnica Salesiana</p>
-        <p>Call: <a href="tel:+17545551111">(175) 555-1111</a></p>
-        <p>Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a></p>
-        <p>&copy;Todos los Derechos Reservados</p>
+        <p id="pie">
+            <span><strong id="pie">Contactanos</strong></span><br>
+            Ivan Marcelo Ulloa Bermeo<br>
+            Organization: Universidad Politecnica Salesiana<br>
+            Call: <a href="tel:+17545551111">(175) 555-1111</a><br>
+            Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a><br>
+            Contactanos: <a href="./contacto.html"><strong>Envianos un mensaje<strong></a>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; ¿Lorem ipsum dolor sit amet consectetur?<br>
+            &#8226; ¿Ipsum dolor sit?<br>
+            &#8226; ¿Dolor sit amet consectetur adipisicing elit?<br>
+            &#8226; ¿Pre orem ipsum dolor sit amet consectetur adipisicing?<br>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; Siguenos en Facebook y Reddit<br><br>
+            <img src="./Imagen/fb.png" alt="ibmPC" id="fb" width="50px" style="margin: 0 0 0 5em;"/>
+            <img src="./Imagen/rd.png" alt="ibmPC" id="rd" width="50px" style="margin: 0 0 0 5em;"/>
+        </p>
+
+        <p style="clear:both">
+            Computers &#8226; 1980 &#8226; Nostalgia<br>
+            &copy;Todos los Derechos Reservados<br>
+        </p>
     </footer>
 </body> 
  

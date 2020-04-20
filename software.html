@@ -4,17 +4,19 @@
     <meta charset="utf-8" /> 
     <meta name="keywords"   content="Computer, 1980, 80s, geek" /> 
     <title> Computadoras de lo 80s </title>
-    <style>
-        body {
-          background-image: url('./Imagen/background.jpg');
-        }
-    </style>
+    <link href="encabezado.css" rel="stylesheet" />
+    <link href="pie_pagina.css" rel="stylesheet" />
 </head> 
  
 <body> 
 
     <header>
-        <img src="./Imagen/fig1.jpg" alt="80s computer banner" /> 
+
+        <img id="logo" src="./Imagen/menu/fig1.jpg" alt="80s computer banner"/> 
+        <label id="searchbar" for="buscar">Buscar  </label>
+        <input id="searchbar" type="text" id="buscar"/>
+        <img id="botones" src="./Imagen/botones.png" alt="botones"/> 
+
         <nav>
             <ul>
                <li><a href="index.html">Inicio</a></li>
@@ -24,12 +26,13 @@
                <li><a href="videojuegos.html">Videojuegos</a></li>
                <li><a href="software.html">Software</a> </li>
             </ul>
-      </nav>
+        </nav>
+
     </header>
 
-    <h1><font size="10" color="purple" >El software de los 80s</font></h1> 
+    <h2>El software de los 80s</h2> 
     <section>
-        <h2><font size="5" >Introduccion</font></h2> 
+        <h1>Introduccion</h1> 
         <article>
             <p>
                 Desde sus inicios en la década de 1940, escribir software ha evolucionado hasta convertirse en una profesión que se ocupa de cómo crear software y maximizar su calidad. La calidad puede referirse a cuán mantenible es el software, su estabilidad, velocidad, usabilidad, comprobabilidad, legibilidad, tamaño, costo, seguridad y número de fallas o "bugs", así como, entre muchos otros atributos, a cualidades menos medibles como elegancia, concisión y satisfacción del cliente. La mejor manera de crear software de alta calidad es un problema separado y controvertido cubriendo el diseño de software, principios para escribir código, llamados "mejores prácticas", así como cuestiones más amplias de gestión como
@@ -43,7 +46,7 @@
         <img src="./Imagen/article/software1.jpg" alt="img1" height="400" width="500"/>
         <br>
 
-        <h3><font size="10" >Visión general</font></h3> 
+        <h1>Visión general</h1> 
         <article>
             <p>
                 Hay un número de áreas donde es notable la evolución de la ingeniería de software:
@@ -59,9 +62,9 @@
 
     </section>
 
-    <h4><font size="10" color="purple" >Finales de los 80s y más allá</font></h4> 
+    <h2>Finales de los 80s y más allá</h2> 
     <section>
-        <h5><font size="10" >De 1985 a 1989: No hay balas de plata</font></h5> 
+        <h1>De 1985 a 1989: No hay balas de plata</h1> 
         <article> 
             <p>
                 Durante décadas, solucionar la crisis del software fue de suprema importancia para investigadores y empresas productoras de herramientas de software. El costo de propiedad y mantenimiento del software en la década de 1980 fue dos veces más caro que el propio desarrollo del software. Durante la década de 1990, el costo de propiedad y mantenimiento aumentó en un 30% con respecto a la década anterior. En 1995, las estadísticas mostraron que la mitad de los proyectos de desarrollo encuestados estaban operacionales, pero no eran considerado exitoso. El proyecto de software medio sobrepasa su estimación en tiempo en el 50%. Las tres cuartas partes de todos los grandes productos de software son entregados al cliente con tales fallas que no son usados en absoluto, o no cumplen con los requerimientos del cliente.
@@ -75,7 +78,7 @@
         <img src="./Imagen/article/software3.jpg" alt="img3" height="400" width="500"/>
         <br>
 
-        <h6><font size="10" >De 1990 a 1999: Prominencia de Internet</font></h6> 
+        <h1>De 1990 a 1999: Prominencia de Internet</h1> 
         <article>
             <p>
                 El auge de la Internet condujo a un rápido crecimiento en la demanda de sistemas internacionales de despliegue de información y correo electrónico en la World Wide Web. Los programadores debían manejar ilustraciones, mapas, fotografías y otras imágenes, más animación sencilla, a un ritmo nunca antes visto, con pocos métodos conocidos para optimizar la visualización/almacenamiento de imágenes (como el uso de imágenes en miniatura).
@@ -92,15 +95,34 @@
     </section>
 
     <footer> <!--Pie de pagina -->
-        <br>
-        <br>
-        <br>
-        <p>Computers &#8226; 1980 &#8226; Nostalgia</p>
-        <p>Ivan Marcelo Ulloa Bermeo</p>
-        <p>Organization: Universidad Politecnica Salesiana</p>
-        <p>Call: <a href="tel:+17545551111">(175) 555-1111</a></p>
-        <p>Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a></p>
-        <p>&copy;Todos los Derechos Reservados</p>
+        <p id="pie">
+            <span><strong id="pie">Contactanos</strong></span><br>
+            Ivan Marcelo Ulloa Bermeo<br>
+            Organization: Universidad Politecnica Salesiana<br>
+            Call: <a href="tel:+17545551111">(175) 555-1111</a><br>
+            Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a><br>
+            Contactanos: <a href="./contacto.html"><strong>Envianos un mensaje<strong></a>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; ¿Lorem ipsum dolor sit amet consectetur?<br>
+            &#8226; ¿Ipsum dolor sit?<br>
+            &#8226; ¿Dolor sit amet consectetur adipisicing elit?<br>
+            &#8226; ¿Pre orem ipsum dolor sit amet consectetur adipisicing?<br>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; Siguenos en Facebook y Reddit<br><br>
+            <img src="./Imagen/fb.png" alt="ibmPC" id="fb" width="50px" style="margin: 0 0 0 5em;"/>
+            <img src="./Imagen/rd.png" alt="ibmPC" id="rd" width="50px" style="margin: 0 0 0 5em;"/>
+        </p>
+
+        <p style="clear:both">
+            Computers &#8226; 1980 &#8226; Nostalgia<br>
+            &copy;Todos los Derechos Reservados<br>
+        </p>
     </footer>
 </body> 
  

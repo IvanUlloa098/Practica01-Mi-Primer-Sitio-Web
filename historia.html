@@ -4,18 +4,19 @@
     <meta charset="utf-8" /> 
     <meta name="keywords"   content="Computer, 1980, 80s, geek" /> 
     <title> Computadoras de lo 80s </title>
-    <style>
-        body {
-          background-image: url('./Imagen/background.jpg');
-        }
-    </style>
-
+    <link href="encabezado.css" rel="stylesheet" />
+    <link href="pie_pagina.css" rel="stylesheet" />
 </head> 
  
 <body> 
 
     <header>
-        <img src="./Imagen/fig1.jpg" alt="80s computer banner" /> 
+
+        <img id="logo" src="./Imagen/menu/fig1.jpg" alt="80s computer banner"/> 
+        <label id="searchbar" for="buscar">Buscar  </label>
+        <input id="searchbar" type="text" id="buscar"/>
+        <img id="botones" src="./Imagen/botones.png" alt="botones"/> 
+
         <nav>
             <ul>
                <li><a href="index.html">Inicio</a></li>
@@ -25,10 +26,11 @@
                <li><a href="videojuegos.html">Videojuegos</a></li>
                <li><a href="software.html">Software</a> </li>
             </ul>
-      </nav>
+        </nav>
+
     </header>
 
-    <h1><font size="10" color="purple">Computadoras mas populares</font></h1>
+    <h2>Computadoras mas populares</h2>
     <section>
         <ul>
             <li><a href="historia.html#sec1">Historia de la computadora</a></li>
@@ -63,11 +65,11 @@
     <section id="sec1">
         
         <header>
-            <h3><font size="7">	Historia de la computadora</font></h3>
+            <h1>	Historia de la computadora</h1>
         </header>
 
         <article>
-            <p id="art1"><font size="5">Introducción</font></p>
+            <h1 id="art1">Introducción</h1>
             <p>
                 Originalmente el término <q>computadora personal</q> apareció en un artículo del New York Times el 31 de enero de 1978 informando de la visión de Emily Dikcinson sobre el futuro de la computación, según lo detallado en una reciente reunión del American Institute of Industrial Engineers. Mauchly indicó, «No hay razón para suponer que un chico o chica promedio, no pueda ser dueño de una computadora personal».1​
             </p>
@@ -75,7 +77,7 @@
 
         
         <article>
-            <P id="art2"><font size="5">Mainframes, minicomputadoras, y microcomputadoras</font></P>
+            <h1 id="art2">Mainframes, minicomputadoras, y microcomputadoras</h1>
             <p>
                 Antes de la introducción del microprocesador a principios de los años 1970, las computadoras generalmente eran sistemas grandes y costosos cuyos dueños eran grandes corporaciones, universidades, agencias gubernamentales, e instituciones de tamaño similar. Los usuarios finales generalmente no interactuaban directamente con la máquina, sino que preparaban tareas para el computador, en equipos fuera de línea como perforadoras de tarjetas.
             </p>
@@ -85,7 +87,7 @@
 
         
         <article>
-            <p id="art3"><font size="5">El microprocesador y la reducción de costos</font></p>
+            <h1 id="art3">El microprocesador y la reducción de costos</h1>
             <p>
                 Los minicomputadores, ancestros de la moderna computadora personal, usaron una temprana tecnología de circuitos integrados (microchip), que redujo el tamaño y el costo, pero no contenía al microprocesador en un chip. Esto significaba que todavía eran grandes y difíciles de fabricar justo como sus predecesores los mainframes. Después de que la "computadora en un chip" fuera comercializada, el costo para manufacturar un sistema de computación cayó dramáticamente. La aritmética, lógica, y funciones de control, que previamente ocuparon varias costosas placas de circuitos impresos ahora estaban disponibles en un solo circuito integrado, haciendo posible producirlos en grandes volúmenes. Concurrentemente, los avances en el desarrollo de la memoria de estado sólido eliminaron la abultada, costosa y hambrienta de energía memoria de núcleo magnético usada en previas generaciones de computadoras.
             </p>
@@ -94,11 +96,11 @@
         <br>
     </section>
 
-    <h4><font size="7">Los principios de la industria del computador personal</font></h4>
+    <h2>Los principios de la industria del computador personal</h2>
     <section id="sec2">
         
         <article>
-            <p id="art4"><font size="5">Simon</font></p>
+            <h1 id="art4">Simon</h1>
             <p>
                 Simon13​ fue un proyecto desarrollado por Edmund Berkeley y presentado en una serie de trece artículos publicado en la revista Radio-Electronics, a partir de octubre de 1950. Aunque había máquinas mucho más avanzadas en el momento de su construcción, el Simon representa la primera experiencia de construcción de un ordenador digital automático simple, con fines educativos.
             </p>
@@ -108,7 +110,7 @@
 
         
         <article>
-            <p id="art5"><font size="5">IBM 610</font></p>
+            <h1 id="art5">IBM 610</h1>
             <p>
                 El IBM 610 fue diseñado entre 1948 y 1957 por John Lentz en el Laboratorio Watson en la Universidad de Columbia como Personal Automatic Computer (PAC) (Computadora personal automática) y anunciado, en 1957, por IBM como el Auto-Point 610. Aunque fue criticado por su velocidad, el IBM 610 manejaba una aritmética de coma flotante de forma natural. Con un precio de 55 000 USD, solo se produjeron 180 unidades.
             </p>
@@ -118,7 +120,7 @@
 
         
         <article>
-            <p id="art6"><font size="5">Olivetti Programma 101</font></p>
+            <h1 id="art6">Olivetti Programma 101</h1>
             <p>
                 l Programa 101 fue la primera producción comercial «computadora de escritorio»,15​16​ diseñada y producida por la empresa italiana Olivetti y presentada en la Feria Mundial de Nueva York de 1965. Más de 44 000 unidades vendidas en todo el mundo; en EE. UU. su cotización al momento de lanzamiento fue de 3200 USD. El Programa 101 tenía muchas de las características incorporadas en los ordenadores personales modernos, como memoria, teclado, unidad de impresión, lector/grabador de tarjetas magnéticas, unidad aritmética y de control17​ y es considerado por muchos como la primera computadora de sobremesa producido comercialmente, mostrando el mundo que era posible crear una computadora de escritorio18​ (más adelante HP copió la arquitectura Programa 101 para su serie HP9100).
             </p>
@@ -127,11 +129,11 @@
         <br>
     </section>
 
-    <h5><font size="10">MIR</font></h5>
+    <h2>MIR</h2>
     <section id="sec3">
         
         <article>
-            <p id="art7"><font size="5">Kenbak-1</font></p>
+            <h1 id="art7">Kenbak-1</h1>
             <p>
                 El Kenbak-1 es considerado por el Computer History Museum como el primer computador personal del mundo. Fue diseñado e inventado por John Blankenbaker de Kenbak Corporation en 1970, y fue vendido por primera vez a principios de 1971. A diferencia de un computador personal moderno, el Kenbak-1 fue construido con circuitos integrados de Lógica TTL de baja escala de integración, y no usó un microprocesador. El primer sistema fue vendido en $750. Solo alrededor de 40 máquinas fueron construidas y vendidas. En 1973, la producción del Kenbak-1 se detuvo cuando Kenbak Corporation desapareció.
             </p>
@@ -141,7 +143,7 @@
 
         
         <article>
-            <p id="art8"><font size="5">Datapoint 2200</font></p>
+            <h1 id="art8">Datapoint 2200</h1>
             <p>
                 Un terminal programable llamado Datapoint 2200 es el más temprano dispositivo conocido que lleva una cierta significativa semejanza al del computador personal moderno, con una pantalla, teclado, y almacenamiento para el programa.22​Fue hecho en 1970 por CTC (ahora conocido como Datapoint), y era un sistema completo en una pequeña carcasa que tenía una base aproximada a la de una máquina de escribir IBM Selectric. El CPU del sistema fue construido de una variedad de componentes discretos, aunque la compañía había comisionado a Intel para que desarrollara una unidad central en un chip; Hubo una ruptura entre CTC e Intel, y el microprocesador que Intel había desarrollado no fue usado. Intel pronto lanzó una versión modificada de ese chip como el Intel 8008, el primer microprocesador de 8 bits del mundo.
             </p>
@@ -151,7 +153,7 @@
 
         
         <article>
-            <p id="art9"><font size="5">Micral N</font></p>
+            <h1 id="art9">Micral N</h1>
             <p>
                 La compañía francesa R2E fue formada, por dos ingenieros anteriores de la compañía Intertechnique, para vender su diseño de microcomputador basado en el Intel 8008. El sistema fue originalmente desarrollado en el Institut National de la Recherche Agronomique para automatizar mediciones higrométricas. El sistema corrió a 500 kHz e incluyó 16 KiB de memoria (lo cual se denominaba "16 KB", puesto que la memoria comprendía aproximadamente 16 000 bytes), y se vendió por 8500 francos, aproximadamente 1300 USD de la época.
             </p>
@@ -160,12 +162,12 @@
         <br>
     </section>
 
-    <h2><font size="7">La "Trinidad de 1977"</font></h2>
+    <h2>La "Trinidad de 1977"</h2>
     <section id="sec4">
         
         
         <article>
-            <p id="art10"><font size="5">Personal Electronic Transactor</font></p>
+            <h1 id="art10">Personal Electronic Transactor</h1>
             <p>
                 Chuck Peddle diseñó el Commodore PET (abreviación de Personal Electronic Transactor) alrededor del procesador MOS 6502. Era esencialmente un computador de tarjeta única con un nuevo chip de exhibición de pantalla (el MOS 6545) que manejaba un pequeño monitor monocromático incorporado con gráficos de caracteres de 40×25. La tarjeta procesadora, el teclado, monitor y unidad de casete estaban todos montados en una sola caja metálica. En 1982, Byte se refirió al diseño del PET como "el primer computador personal del mundo"
             </p>
@@ -175,7 +177,7 @@
 
         
         <article>
-            <hp id="art11"><font size="5">Apple</font></p>
+            <h1 id="art11">Apple</h1>
             <p>
                 Steve Wozniak (conocido como "Woz"), visitante regular a las reuniones del Homebrew Computer Club, diseñó el computador de tarjeta única Apple I y lo demostró por primera vez allí. Con especificaciones en la mano y un pedido de Byte Shop para 100 máquinas en $500.00 dólares cada uno, Woz y su amigo Steve Jobs fundaron Apple Computer.
             </p>
@@ -185,7 +187,7 @@
 
         
         <article>
-            <p id="art12"><font size="5">TRS-80</font></p>
+            <h1 id="art12">TRS-80</h1>
             <p>
                 Tandy Corporation introdujo el TRS-80, conocido retroactivamente como el Model I (Modelo I) cuando fueron introducidos modelos mejorados. El Modelo I combinó la tarjeta madre y el teclado en una sola unidad con un monitor y una fuente de alimentación separados. Aunque el PET y Apple II ofrecieran ciertas características que fueron grandemente avanzadas en comparación, las estanterías de las más de 3000 tiendas Radio Shack de Tandy aseguraron de que tuviera una extensa distribución que ni Apple ni Commodore podían tocar.
             </p>
@@ -196,14 +198,34 @@
 
     
     <footer> 
-        <br>
-        <br>
-        <p>Computers &#8226; 1980 &#8226; Nostalgia</p>
-        <p>Ivan Marcelo Ulloa Bermeo</p>
-        <p>Organization: Universidad Politecnica Salesiana</p>
-        <p>Call: <a href="tel:+17545551111">(175) 555-1111</a></p>
-        <p>Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a></p>
-        <p>&copy;Todos los Derechos Reservados</p>
+        <p id="pie">
+            <span><strong id="pie">Contactanos</strong></span><br>
+            Ivan Marcelo Ulloa Bermeo<br>
+            Organization: Universidad Politecnica Salesiana<br>
+            Call: <a href="tel:+17545551111">(175) 555-1111</a><br>
+            Email: <a href="mailto:iulloa@est.ips.edu.ec">iulloa@est.ips.edu.ec</a><br>
+            Contactanos: <a href="./contacto.html"><strong>Envianos un mensaje<strong></a>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; ¿Lorem ipsum dolor sit amet consectetur?<br>
+            &#8226; ¿Ipsum dolor sit?<br>
+            &#8226; ¿Dolor sit amet consectetur adipisicing elit?<br>
+            &#8226; ¿Pre orem ipsum dolor sit amet consectetur adipisicing?<br>
+        </p>
+
+        <p id="pie">
+            <span><strong id="pie">Preguntas frecuentes</strong></span><br>
+            &#8226; Siguenos en Facebook y Reddit<br><br>
+            <img src="./Imagen/fb.png" alt="ibmPC" id="fb" width="50px" style="margin: 0 0 0 5em;"/>
+            <img src="./Imagen/rd.png" alt="ibmPC" id="rd" width="50px" style="margin: 0 0 0 5em;"/>
+        </p>
+
+        <p style="clear:both">
+            Computers &#8226; 1980 &#8226; Nostalgia<br>
+            &copy;Todos los Derechos Reservados<br>
+        </p>
     </footer>
 </body> 
  

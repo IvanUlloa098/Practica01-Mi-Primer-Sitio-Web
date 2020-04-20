@@ -1,0 +1,106 @@
+/*Propiedades para todos*/
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+}
+
+strong {
+    font-family: Arial Black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Propiedades especificas*/
+/*about.html*/
+section#uno{
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    width: 20%;
+    float: left;
+    margin: 0 2% 2% 8%;
+}
+
+img#acerca {
+    margin: 0 0 0 27%;
+    width: 35%;
+}
+
+img#contacto {
+    margin: 0 0 0 30%;
+}
+
+section#dos {
+    width: 60%;
+    float: left;
+    background-color: #FF3521;
+    border: thick dotted #EB809C;
+}
+
+/*conatcto.html*/
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    padding: .2em;
+}
+
+form {
+    width: 70%;
+    margin: 5% 5% 5% 15%;
+}
+
+form label {
+    display: block;
+    margin: .5em 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .btn {
+    display: block;
+    margin: 1em 0;
+    margin: 2% 0 0 88%;
+}
+
+form #correo {
+    width: 95%;
+    
+}
+
+form #texto {
+    width: 95%;
+    height: 15em;
+    margin: 2% 0 0 0;
+}
+
+/*modelos.html*/
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    background-color: #E8023D;
+}
+
+th, td {
+    background-color: #E851B6;
+}
+
+img#mod1 {
+    margin: 0 0 0 25%;
+}
+
+img#mod2 {
+    margin: 0 0 0 20%;
+}
+
+img#mod3 {
+    margin: 0 0 0 30%;
+}
