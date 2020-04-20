@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: pacifico-regular; 
+    src: url('./80s.TTF'); 
+} 
+
 header {
     clear: both;
     background-color: hsla(195, 100%, 8%, 0.7) !important;
@@ -41,7 +46,7 @@ body {
 }
 
 nav ul li {
-	font-family: Verdana, sans-serif;
+	font-family: pacifico-regular, Verdana, sans-serif;
     font-size: 25px;
     padding: 5px;
     background-color:#5733FF;

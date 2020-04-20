@@ -1,0 +1,83 @@
+/*Propiedades para todos*/
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+}
+
+strong {
+    font-family: Arial Black;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#uno{
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    width: 20%;
+    float: left;
+    margin: 2% 2% 2% 8%;
+}
+
+div#dos {
+    width: 40%;
+    float: left;
+    margin: 2% 0 2% 0;
+    background-color: #FF3521;
+    border: thick dotted #EB809C;
+}
+
+div#tres{
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    width: 20%;
+    float: left;
+    margin: 2% 0 0 2%;
+}
+
+/*software.html*/
+div#altuno {
+    float: left;
+    width: 20%;
+    margin: 0 2% 2% 8%;
+}
+
+div#alttres {
+    float: left;
+    width: 20%;
+    margin: 0 2% 2% 2%;
+}
+
+div#altuno #sec1 {
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    margin: 10% 0 0 0;
+}
+
+div#altuno #sec2 {
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    margin: 10% 0 0 0;
+}
+
+div#alttres #sec1 {
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    margin: 10% 0 0 0;
+}
+
+div#alttres #sec2 {
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    margin: 10% 0 0 0;
+}

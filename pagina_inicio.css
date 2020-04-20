@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: pacifico-regular; 
+    src: url('./80s.TTF'); 
+} 
+
 /*ENCABEZADO*/
 header {
     clear: both !important;
@@ -42,7 +47,7 @@ body {
 }
 
 nav ul li {
-	font-family: Verdana, sans-serif;
+	font-family: pacifico-regular, Arial, sans-serif;;
     font-size: 25px;
     padding: 5px;
     background-color:#5733FF;
