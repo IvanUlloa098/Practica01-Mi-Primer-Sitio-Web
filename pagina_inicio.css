@@ -1,7 +1,7 @@
 /*ENCABEZADO*/
 header {
-    clear: both;
-    
+    clear: both !important;
+    background-color: hsla(195, 100%, 8%, 0.7) !important;
 }
 
 #logo{

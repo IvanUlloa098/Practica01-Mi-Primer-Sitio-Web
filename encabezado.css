@@ -1,6 +1,6 @@
 header {
     clear: both;
-    
+    background-color: hsla(195, 100%, 8%, 0.7) !important;
 }
 
 #logo{

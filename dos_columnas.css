@@ -27,6 +27,13 @@ section#uno{
     margin: 0 2% 2% 8%;
 }
 
+section#dos {
+    width: 60%;
+    float: left;
+    background-color: #FF3521;
+    border: thick dotted #EB809C;
+}
+
 img#acerca {
     margin: 0 0 0 27%;
     width: 35%;
@@ -34,13 +41,6 @@ img#acerca {
 
 img#contacto {
     margin: 0 0 0 30%;
-}
-
-section#dos {
-    width: 60%;
-    float: left;
-    background-color: #FF3521;
-    border: thick dotted #EB809C;
 }
 
 /*conatcto.html*/
@@ -103,4 +103,42 @@ img#mod2 {
 
 img#mod3 {
     margin: 0 0 0 30%;
+}
+
+/*historia.html*/
+section#navegar {
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+    height: 14em !important;
+    
+}
+
+ul#navegar {
+    overflow: scroll;
+    height: 10em !important;
+    background-color: #970E69;
+}
+
+div#uno{
+    width: 20%;
+    float: left;
+    margin: 2% 2% 2% 8%;
+}
+
+section#int {
+    margin: 3% 0 0 0;
+    background-color: #EB809C;
+    border: thick dotted #FF3521;
+}
+
+div#dos {
+    width: 60%;
+    float: left;
+    margin: 2% 0 2% 0;
+    background-color: #FF3521;
+    border: thick dotted #EB809C;
+}
+
+img#historia {
+    margin: 0 0 0 20%;
 }
