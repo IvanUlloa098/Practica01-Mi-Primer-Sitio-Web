@@ -11,42 +11,41 @@ mayormente centrándose en ser informativa.
     menú horizontal, el logo, una caja de búsqueda y los botones de acción. El menú se
     realizó de la siguiente manera (pagina_inicio.css):
 
-<img id="logo" src="/Imagen/rm1.png" alt="80s computer banner"/> 
+<img id="logo" src="/Imagen/rm6.png" alt="rm6"/> 
 
 La página se ve de esta manera:
-```
+<img id="logo" src="/Imagen/rm1.png" alt="rm1"/> 
 
 El resto de la página tiene una estructura de dos columnas junto con otros añadidos
 parte de la plantilla brindada en la práctica.
+<img id="logo" src="/Imagen/rm2.png" alt="rm2"/> 
 
 El pie de página contiene tiene un diseño de tres columnas las cueles contienen tres
 tipos de información de atención al cliente: Contacto, preguntas frecuentes y las
 redes sociales.
-
+<img id="logo" src="/Imagen/rm3.png" alt="rm3"/> 
 
 Se uso el tag “float” para colocar en sus respectivas columnas al igual que se afectó
 redujo su tamaño.
-
+<img id="logo" src="/Imagen/rm4.png" alt="rm4"/> 
 A continuación está la validación de la página en W3C:
+<img id="logo" src="/Imagen/rm5.png" alt="rm5"/> 
 
-
-```
 Solo una advertencia por el lenguaje, la otra es aparentemente por un articulo sin
 header, aunque el articulo esta claramente con un h1.
-```
+
 - Modelos.html (dos columnas)
     La página de modelos se encuentra en una estructura simple de dos columnas donde
     una de ellas toma una porción menor del espacio total de la página, mientras que la
     otra ocupa más espacio. Se dividió a la página en dos secciones (dos_columnas.css):
+<img id="logo" src="/Imagen/rm7.png" alt="rm7"/> 
 
-```
 La página se ve de esta manera:
-```
+<img id="logo" src="/Imagen/rm8.png" alt="rm8"/> 
 
-```
 A continuación está la validación de la página en W3C:
-```
-```
+<img id="logo" src="/Imagen/rm9.png" alt="rm9"/> 
+
 Solo una advertencia por el lenguaje, aunque no esta en un lenguaje en específico.
 ```
 - About.html (dos columnas)
@@ -174,12 +173,12 @@ La validación en W3C:
 
 ```
 La validación en W3C:
-```
 
 
 
 
-# practica_html
+##practica_html
+
 Estructurar un sitio web estático usando HTML5. El sitio web será informativo sobre un tema que será autoría del estudiante.
 PÁGINAS HTML
 El objetivo de la página web es ilustrar acerca de la computación en la década de los 80s. mayormente centrándose en ser informativa.
