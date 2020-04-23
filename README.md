@@ -11,7 +11,7 @@ mayormente centrándose en ser informativa.
     menú horizontal, el logo, una caja de búsqueda y los botones de acción. El menú se
     realizó de la siguiente manera (pagina_inicio.css):
 
-<img id="logo" src="Imagen/rm1.png" alt="80s computer banner"/> 
+<img id="logo" src="/Imagen/rm1.png" alt="80s computer banner"/> 
 
 La página se ve de esta manera:
 ```
