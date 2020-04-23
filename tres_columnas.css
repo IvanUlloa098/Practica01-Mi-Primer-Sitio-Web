@@ -58,25 +58,25 @@ div#alttres {
     margin: 0 2% 2% 2%;
 }
 
-div#altuno #sec1 {
+div#altuno .sec1 {
     background-color: #EB809C;
     border: thick dotted #FF3521;
     margin: 10% 0 0 0;
 }
 
-div#altuno #sec2 {
+div#altuno .sec2 {
     background-color: #EB809C;
     border: thick dotted #FF3521;
     margin: 10% 0 0 0;
 }
 
-div#alttres #sec1 {
+div#alttres .sec1 {
     background-color: #EB809C;
     border: thick dotted #FF3521;
     margin: 10% 0 0 0;
 }
 
-div#alttres #sec2 {
+div#alttres .sec2 {
     background-color: #EB809C;
     border: thick dotted #FF3521;
     margin: 10% 0 0 0;

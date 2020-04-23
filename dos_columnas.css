@@ -37,12 +37,12 @@ section#dos {
     border: thick dotted #EB809C;
 }
 
-img#acerca {
+img.acerca {
     margin: 0 0 0 27%;
-    width: 35%;
+    width: 30%;
 }
 
-img#contacto {
+img.contacto {
     margin: 0 0 0 30%;
 }
 
@@ -109,14 +109,14 @@ img#mod3 {
 }
 
 /*historia.html*/
-section#navegar {
+section.navegar {
     background-color: #EB809C;
     border: thick dotted #FF3521;
     height: 14em !important;
     
 }
 
-ul#navegar {
+ul.navegar {
     overflow: scroll;
     height: 10em !important;
     background-color: #970E69;
@@ -142,6 +142,6 @@ div#dos {
     border: thick dotted #EB809C;
 }
 
-img#historia {
+img.historia {
     margin: 0 0 0 20%;
 }

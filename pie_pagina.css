@@ -4,11 +4,11 @@ footer {
     background-color: #6566FF;
 }
 
-strong#pie {
+strong.pie {
     background-color: #FF05B3;
 }
 
-p#pie {
+p.pie {
     background-color: #AE01FF;
     border: 3px solid #FF05B3;
     float: left;
